@@ -1,13 +1,4 @@
-<!-- By Levallois Cyril 
-https://codepen.io/CyrilLevallois/
-
-
-Here is the reference I used for the run :
-http://yianniseanimation.files.wordpress.com/2014/04/run.jpg
-
--->
 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" style="max-height:800px;height:90vh;width:100%" viewBox="0 0 400 400" xml:space="preserve">
-    <!-- By Levallois Cyril   https://codepen.io/CyrilLevallois/ -->
     <defs>
         <filter id="glow" width="20" x="-10">
             <feGaussianBlur id="GaussianBlur" stdDeviation="2" in="SourceGraphic" result="BlurResult" />
@@ -147,21 +138,6 @@ http://yianniseanimation.files.wordpress.com/2014/04/run.jpg
                             90;
                             50;
                             -120" />
-            <!-- Repere pour le prop , red cross
-<line style="fill:none;stroke:red"
-        x1="0"
-        x2="0"
-        y1="-10"
-        y2="10" />
-  <line style="fill:none;stroke:red"
-        x1="-10"
-        x2="10"
-        y1="0"
-        y2="0" /> -->
-
-
-            <!-- Here you can change that, by image or path or anything you want, for change the prop. -->
-
             <g id="Axe" transform="scale(5),rotate(60)" visibility="hidden">
                 <set attributeName="visibility" begin="BtnAxe.click" fill="freeze" to="visible" />
                 <set attributeName="visibility" begin="BtnKatana.click;BtnNone.click;BtnLightsaber.click" fill="freeze" to="hidden" />
@@ -199,8 +175,6 @@ http://yianniseanimation.files.wordpress.com/2014/04/run.jpg
                 <set attributeName="visibility" begin="BtnLightsaber.click" fill="freeze" to="visible" />
                 <set attributeName="visibility" begin="BtnAxe.click;BtnNone.click;BtnKatana.click" fill="freeze" to="hidden" />
             </g>
-
-            <!-- End of Prop-->
         </g>
 
     </g>
@@ -225,46 +199,4 @@ http://yianniseanimation.files.wordpress.com/2014/04/run.jpg
     <line fill="none" stroke="black" stroke-dasharray="50 10" x1="350" y1="363.8" x2="50" y2="363.8">
         <animate attributeName="stroke-dashoffset" dur="0.48s" repeatCount="indefinite" from="0" to="-300" />
     </line>
-    <g id="Buttons" opacity="0.8">
-        <g style="cursor:pointer" id="BtnKatana">
-            <rect style="fill:#848ea6" width="75" height="20" x="300" y="5" />
-            <text style="font-size:.8em;fill:#000000;font-family:font-family: Helvetica, sans-serif" x="318.28711" y="19.224609">Katana</text>
-        </g>
-        <g style="cursor:pointer" id="BtnAxe">
-            <rect y="30" x="300" height="20" width="75" style="fill:#85a684" />
-            <text style="font-size:.8em;fill:#000000;font-family:font-family: Helvetica, sans-serif" x="327.41309" y="44.224609">Axe</text>
-        </g>
-        <g>
-            <g id="BtnLightsaber" style="cursor:pointer">
-                <rect style="fill:#d27e1f;fill-opacity:1;fill-rule:nonzero;stroke:none" y="55" x="300" height="20" width="75" />
-                <text style="font-size:.8em;fill:#000000;font-family:font-family: Helvetica, sans-serif" x="307.93359" y="68.105469" id="text4218">LightSaber</text>
-            </g>
-            <g id="properties" visibility="hidden">
-                <set attributeName="visibility" begin="BtnLightsaber.click" fill="freeze" to="visible" />
-                <set attributeName="visibility" begin="BtnAxe.click;BtnNone.click;BtnKatana.click" fill="freeze" to="hidden" />
-                <rect id="BtnRed" style="fill:red;fill-opacity:1;stroke:none;cursor:pointer" width="40.84" height="5.215" x="336.1" y="280.2" ry="2.563" />
-                <rect id="BtnBlue" ry="2.563" y="287" x="336.1" height="5.215" width="40.84" style="fill:#00a3f7;fill-opacity:1;stroke:none;cursor:pointer" />
-                <rect id="BtnGreen" style="fill:lime;fill-opacity:1;stroke:none;cursor:pointer" width="40.84" height="5.215" x="336.1" y="293.9" ry="2.563" />
-                <g transform="matrix(1.976,0,0,1.976,-215.1,137.2)">
-                    <g id="BtnOff" style="cursor:pointer">
-                        <path transform="matrix(0.5061,0,0,0.5061,108.9,-69.43)" d="m 355.1,273 13.3,0 c 3.9,0 6.9,-3.1 6.9,-6.9 0,-3.8 -3,-6.9 -6.9,-6.9 l -13.3,0" style="fill:#e0a146;fill-opacity:1;stroke:#996800;stroke-width:0.8" />
-                        <text style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" x="290.05609" y="66.664116">OFF</text>
-                    </g>
-                    <g id="BtnOn" style="cursor:pointer">
-                        <path style="fill:#e0a146;fill-opacity:1;stroke:#996800;stroke-width:0.4044;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" d="m 288.9,61.75 -7.1,0 c -2,0 -3.6,1.57 -3.6,3.49 0,1.93 1.6,3.49 3.6,3.49 l 7.1,0" />
-                        <text style="font-size:4px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans" x="280.75006" y="66.664116" id="text4745">ON</text>
-                    </g>
-                    <rect ry="3" y="62.11" x="287.2" height="6" width="11.12" style="fill:#b07700;fill-opacity:1;stroke:none">
-                        <animate attributeName="x" begin="BtnOn.click" values="287.2;
-                         279" dur="0.3s" fill="freeze" />
-                        <animate attributeName="x" begin="BtnOff.click;BtnAxe.click;BtnNone.click;BtnKatana.click" values="279; 287.2" dur="0.3s" fill="freeze" />
-                    </rect>
-                </g>
-            </g>
-            <g style="cursor:pointer" id="BtnNone">
-                <rect style="fill:#ee3d36;fill-opacity:1;fill-rule:nonzero;stroke:none" y="80" x="300" height="20" width="75" />
-                <text style="font-size:.8em;fill:#000000;font-family:font-family: Helvetica, sans-serif" x="322.93945" y="94.224609">None</text>
-            </g>
-        </g>
-    </g>
 </svg>
