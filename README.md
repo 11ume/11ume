@@ -3,7 +3,7 @@
 	<br>
 	<br>
 	<br>
-	<img src="https://github.com/11ume/11ume/raw/master/animation.svg?sanitize=true" width="100" height="100">
+	<img src="https://github.com/11ume/11ume/raw/master/animation.svg?sanitize=true" width="500" height="500">
 	<br>
 	<br>
 	<br>
