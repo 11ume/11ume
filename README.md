@@ -2,11 +2,6 @@
 
 <p align="left"> 
   Hello my name is Horacio Rivero, I am <strong>Passionate software enginer</strong> and <strong>UI Designer</strong>.<br>
-  I am studying System and System Development for Internet.
-</p>
-
-<p align="left">
-  🦄 Skills
 </p>
 
 <p align="left">
