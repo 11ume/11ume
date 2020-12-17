@@ -1,3 +1,5 @@
+<br>
+
 <p align="right"> 
   Hello my name is Horacio Rivero, I am <strong>Passionate software enginer</strong> and <strong>UI Designer</strong>.<br>
 </p>
