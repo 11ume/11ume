@@ -1,8 +1,8 @@
 <br>
 
-<p align="right"> 
+<h3 align="right"> 
   Hello my name is Horacio Rivero, I am <strong>Passionate software enginer</strong> and <strong>UI Designer</strong>.<br>
-</p>
+</h3>
 
 <a href="http://passiondrivendevelopment.org" alt="Manifesto for Passion Driven Development">
   <p align="right">
